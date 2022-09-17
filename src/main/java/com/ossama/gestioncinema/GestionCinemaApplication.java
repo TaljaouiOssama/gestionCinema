@@ -21,8 +21,8 @@ public class GestionCinemaApplication implements CommandLineRunner {
         initService.initSeats();
         initService.initCategories();
         initService.initMovies();
-        initService.initMoviesProjection();
         initService.initSessions();
+        initService.initMoviesProjection();
         initService.initTickets();
 
     }
